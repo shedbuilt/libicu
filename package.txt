@@ -1,0 +1,6 @@
+NAME=libicu
+VERSION=60.2
+REVISION=1
+LICENSE=MIT
+SRC=http://download.icu-project.org/files/icu4c/60.2/icu4c-60_2-src.tgz
+SRCMD5=43861b127744b3c0b9d7f386f4b9fa40
