@@ -3,5 +3,5 @@
 cd source && \
 ./configure --prefix=/usr && \
 sed -i "s/LDFLAGSICUDT=.*/LDFLAGSICUDT=/" config/mh-linux && \
-make -j $SHED_NUMJOBS && \
-make DESTDIR="$SHED_FAKEROOT" install
+make -j $SHED_NUM_JOBS && \
+make DESTDIR="$SHED_FAKE_ROOT" install
